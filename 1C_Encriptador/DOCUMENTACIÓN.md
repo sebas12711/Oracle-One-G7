@@ -45,9 +45,11 @@ El proyecto consta de los siguientes archivos:
 
 Este proyecto es completamente estático y no requiere instalación. Simplemente clona el repositorio o descarga los archivos y abre `index.html` en tu navegador preferido.
 
-## Captura de Pantalla
+## Capturas de Pantalla
 
-![image](https://github.com/user-attachments/assets/acd2b6fa-d735-4789-9f52-9eae564bdacd)
+![image](https://github.com/user-attachments/assets/6d5956b4-a36f-4cf4-bff6-b0335da36ce2)
+
+![image](https://github.com/user-attachments/assets/36073729-ece8-4326-a8e7-9bc1b986c900)
 
 ## Contacto
 
