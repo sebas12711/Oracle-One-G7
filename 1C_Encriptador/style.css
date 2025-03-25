@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    background: #f3f5fc;
+    font-size: 30px;
+    font-family: 'Sarabun';
+    
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 2% 0% 0% 1%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 5% 0% 5%;
+}
+
+.texto_encriptar {
+    color: #0A3871;
+    width: 50%;
+}
+
+.textarea_encriptar {
+    margin: 0% 0% 0% 0%;
+    line-height: 150%;
+    border: none;
+    padding: 2%;
+    outline: none;  /* Quitamos el foco del textarea para que no se vea cuando se pasa el mouse */
+    width: 100%;
+    resize: none;
+    color: #0A3871;
+}
+::placeholder {color: #0A3871;}
+
+.botones {
+    margin: 3% 5% 3% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button {
+    font-size: 25px;
+    border: 1px solid #0a3871;
+    border-radius: 20px;
+    padding: 2.5% 13% 2.5% 13%;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.btn_encriptar {
+    background-color: #0a3871;
+    color: #f3f5fc;
+    cursor: pointer;    /* cambia la apariencia del cursor del mouse cuando se sitúa sobre un elemento específico */
+}
+
+.btn_desencriptar {
+    background-color: #f3f5fc;
+    color: #0a3871;
+    cursor: pointer;
+}
+
+.seccion_encriptado {
+    width: 35%;
+    border-radius: 35px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encriptado {
+    margin: 5% 5% 0% 5%;
+}
+
+.textarea_encriptado {
+    border: none;
+    outline: none;  /* Quitamos el foco del textarea para que no se vea cuando se pasa el mouse */
+    color: #0A3871;
+    resize: none;   /* Evita la edición */
+    display: none;  /* Vuelve invisible el elemento sin ocupar espacio */
+}
+
+.mensajes {
+    text-align: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.advertencia {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+.mensaje {
+    font-size: 20px;
+    color: rgb(82, 79, 79);
+    margin-bottom: 2%;
+}
+
+.btn_copiar {
+    font-size: 25px;
+    border: 1px solid #0a3871;
+    border-radius: 20px;
+    padding: 2.5% 13% 2.5% 13%;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #f3f5fc;
+    color: #0a3871;
+    margin: 5%;
+    cursor: pointer;
+    align-items: center;
+}
+
+.icono {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    transition: opacity 1s ease-in-out;
+}

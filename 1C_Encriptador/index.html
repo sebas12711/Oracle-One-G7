@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Exportamos la fuente deseada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <title>Challenge 1 - Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.aluracursos.com">
+            <img src="images/logo.png" alt="Logo de Alura Latam"></a>
+    </header>
+
+    <main>
+        <div class="texto_encriptar">
+            <textarea class="textarea_encriptar" rows="10" placeholder="Ingrese el texto aquí..."></textarea>
+            
+            <p style="font-size: 16px; color: gray; font-weight: bold; margin-top: 5%;">⚠️ Solo letras minúsculas y sin acentos</p>
+            <div class="botones">
+                <button class="btn_encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn_desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="seccion_encriptado">
+            <div class="encriptado">
+                <img class="logo_encriptacion" src="images/logo-encriptador.png" alt="Encriptador de texto">
+                <textarea readonly class="textarea_encriptado" cols="30" rows="9"></textarea>
+            </div>
+            
+            <div class="mensajes">
+                <p class="advertencia">Ningún mensaje fue encontrado</p>
+                <p class="mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+
+            <button class="btn_copiar" onclick="btnCopiar()">
+                <img class="icono" src="images/icon_copy.png" alt="Copiar">Copiar texto
+            </button>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
